@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-dark">
+        <span class="navbar-brand mb-0 h1"><h1>Hangman</h1></span>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+            <h2>Play Hangman</h2>
+                <div class="row justify-content-center">
+                    Try and guess each letter of the word. You have only 12 guesses before you lose a round. Good luck, and go rockets!
+                    <!-- This image is not my own. Image source: https://cdn.bleacherreport.net/images/team_logos/328x328/houston_rockets.png -->
+                <div class="row" id="img">
+                        <img id="imageid" src="">
+                </div>
+                </div>             
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <h2>Run as One</h2>
+                </div>
+                <div class="row justify-content-center" id="word">
+                    <h4>Your Word is:</h4>
+                </div>
+                <div class="row justify-content-center" id="newword">
+                    
+                </div>
+                <div class="row title">
+                    <h5>Number of Guesses Left</h5>
+                </div>
+                <div class="row" id="numGuesses">
+                    Number of guesses left: 12
+                </div>
+                <div class="row title">
+                    <h5>Wrong Letters</h5>
+                </div>
+                <div class="row" id="wrong">
+                    
+                </div>
+                <div class="row title">
+                    <h5>Number of wins:</h5>
+                </div>
+                <div class="row" id="wincount">
+                    
+                </div>
+                <div class="row title">
+                    <h5>Number of Losses:</h5>
+                </div>
+                <div class="row" id="losscount">
+                    
+                </div>
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <!--Javascript-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./assets/javascript/game.js"></script>
+    </script>
+</body>
+</html>

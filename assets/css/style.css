@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    background-image: url("../images/dust_scratches.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bg-dark {
+    background-color: black!important;
+}
+
+.container {
+    margin: 50px auto;
+}
+
+.col-md-5 {
+    border: 5px solid black;
+    border-radius: .25rem;
+    background-color: rgba(131, 2, 2, 0.664);
+    color: white;
+    margin-right: 35px;
+}
+
+.col-md-6 {
+    border: 5px solid black;
+    border-radius: .25rem;
+    background-color: rgba(131, 2, 2, 0.664);
+    color: white;
+}
+
+.row {
+    margin: 5px auto;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif;
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+    text-align: left;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+    width: 100%;
+    border-bottom:  2px solid #500b0f;
+    
+}
+
+#newword {
+    font-size: 40px;
+    color: black;
+}
+
+#numGuesses {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+#wrong {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+#wincount {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+#losscount {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+img {
+    margin: 50px;
+    width: 200px;
+}
