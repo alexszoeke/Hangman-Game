@@ -21,7 +21,7 @@ var answers = [];
 //Array of words to guess
 var words = ["guard", "forward", "center", "basketball", "foul","referee", "rockets", "clutch", "fans", "rowdies"];
 //Photo Variables
-var images = ["./assets/images/img_1.jpg", "./assets/images/img_2.jpg", "./assets/images/img_3.jpg", "./assets/images/img_4.jpg", "./assets/images/img_5.jpg", "./assets/images/img_6.jpg", "./assets/images/img_7.jpg", "./assets/images/img_8.jpg", "./assets/images/img_9.jpg", "./assets/images/img_10.jpg"];
+var images = ["./assets/images/img_1.jpg", "./assets/images/img_2.jpg", "./assets/images/img_3.jpg", "./assets/images/img_4.jpg", "./assets/images/img_5.jpg", "./assets/images/img_6.jpg", "./assets/images/img_7.jpg", "./assets/images/img_8.jpg", "./assets/images/img_9.JPG", "./assets/images/img_10.jpg"];
 var imgURL = "";
 console.log(imgURL);
 
