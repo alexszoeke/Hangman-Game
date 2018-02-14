@@ -6,10 +6,12 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*nav bar*/
 .bg-dark {
     background-color: black!important;
 }
 
+/*container, columns and rows*/
 .container {
     margin: 50px auto;
 }
@@ -33,6 +35,8 @@ body {
     margin: 5px auto;
 }
 
+
+/*heading sizes*/
 h1 {
     color: white;
     font-size: 50px;
@@ -57,11 +61,17 @@ h5 {
     
 }
 
+/*side note*/
+p {
+    font-size: 12px;
+}
+
 #newword {
     font-size: 40px;
     color: black;
 }
 
+/*attributes for DOM*/
 #numGuesses {
     font-size: 20px;
     font-weight: 600;
@@ -86,7 +96,9 @@ h5 {
     color: black;
 }
 
+/*random img attributes*/
 img {
-    margin: 50px;
-    width: 200px;
+    margin-top: 50px;;
+    width: 400px;
+    height: 270px;
 }
