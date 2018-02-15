@@ -99,6 +99,6 @@ p {
 /*random img attributes*/
 img {
     margin-top: 50px;;
-    width: 400px;
-    height: 270px;
+    width: 100%;
+    height: 80%;
 }
